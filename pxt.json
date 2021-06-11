@@ -1,0 +1,25 @@
+{
+    "name": "                                         ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "TM1637": "github:zhuning239/tm1637#bd4bd21a16d8fe50e29faf67b0a713494707b9a0",
+        "cBit": "github:zhuning239/cbit#a1612bc5be7fc2be0e27c01efbbe281965605d71",
+        "NTC": "github:zhuning239/ntc#802e504bf7d0ed8822f2f186f3ba86f43c1b330e",
+        "SSD1306_OLED": "github:zhuning239/oled12864#955094736abba3fe3a60fc1cdbc89d40436c5259"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
